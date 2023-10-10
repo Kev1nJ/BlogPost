@@ -1,0 +1,33 @@
+/* Reset some default styles for cleaner appearance */
+body, h1, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Header buttons styles */
+.header-buttons {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.header-buttons button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.header-buttons button:hover {
+  background-color: #555;
+}
